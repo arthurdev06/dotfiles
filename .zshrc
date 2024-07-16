@@ -115,8 +115,8 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
-alias ls='eza -a'
-alias ll="tree -a"
+alias ls='eza -l --icons'
+alias ll="eza -T --icons"
 alias c='clear'
 
 # Shell integrations

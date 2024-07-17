@@ -1,5 +1,5 @@
 return {
-  "datsfilipe/min-theme.nvim",
+  "gp-themes/oxographene.nvim",
   name = "min-theme",
   lazy = false,
   priority = 1000,

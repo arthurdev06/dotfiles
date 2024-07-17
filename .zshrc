@@ -117,6 +117,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # Aliases
 alias ls='eza -l --icons'
 alias ll="eza -T --icons"
+alias zed="zeditor ./"
 alias c='clear'
 
 # Shell integrations

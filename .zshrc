@@ -38,6 +38,7 @@ pomodoro () {
 
 alias wo="pomodoro 'work'"
 alias br="pomodoro 'break'"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -119,8 +120,10 @@ alias ls='eza -l --icons'
 alias ll="eza -T --icons"
 alias zed="zeditor ./"
 alias c='clear'
+alias learn="cd rust-book-pt-br && firefox book/index.html"
 
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 export FPATH="<path_to_eza>/completions/zsh:$FPATH"
+source /home/arthur/.oh-my-zsh/plugins/calc/calc.plugin.zsh/calc.plugin.zsh

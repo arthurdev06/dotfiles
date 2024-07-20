@@ -21,6 +21,7 @@ return {
         "scss",
         "sql",
         "svelte",
+        "rust",
       },
     },
     config = function(_, opts)

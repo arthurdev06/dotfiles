@@ -60,6 +60,7 @@
   "vanilla-template": { "branch": "main", "commit": "d77e785df5dbffde0d50ec2e8c7565177ff98ce4" },
   "venv-selector.nvim": { "branch": "regexp", "commit": "47159757b334343fe60f16d52478f827ccefa09d" },
   "vim-be-good": { "branch": "master", "commit": "4fa57b7957715c91326fcead58c1fa898b9b3625" },
+  "vim-fugitive": { "branch": "master", "commit": "0444df68cd1cdabc7453d6bd84099458327e5513" },
   "which-key.nvim": { "branch": "main", "commit": "6e61b0904e9c038b6c511c43591ae2d811b4975e" },
   "yanky.nvim": { "branch": "main", "commit": "73215b77d22ebb179cef98e7e1235825431d10e4" }
 }

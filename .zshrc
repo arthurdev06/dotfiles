@@ -135,4 +135,6 @@ case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
-# pnpm end
+# pnpm End
+#
+eval "$(zellij setup --generate-auto-start zsh)"
